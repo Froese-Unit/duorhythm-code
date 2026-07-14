@@ -1,0 +1,142 @@
+{
+    "name": "GameInputActions",
+    "maps": [
+        {
+            "name": "Player1",
+            "id": "5b4c8f28-a315-47d1-8a0a-e422d295cd2b",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "cb421faf-317f-4e75-92ba-165dbb997ca4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "34d7c0b5-ea51-4069-bf29-f945d6f99829",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "68b29edf-12fc-45ea-8de4-fd049d1432fa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a6750452-4214-4cf5-b133-18257c96d6ca",
+                    "path": "<DualSenseGamepadHID>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4851a5e-2e7a-4ede-980f-09ab00e55d30",
+                    "path": "<DualSenseGamepadHID>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7df74da-e364-4ea6-b848-e17040fd0f52",
+                    "path": "<DualSenseGamepadHID>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "id": "0ec63344-9325-4b8f-81ef-5ec99ae85b45",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "56a18268-95a5-4b8b-a100-08844a8581b6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "815bd99b-63c9-4697-ad86-23e62f10b676",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "5b168e20-badf-4d90-a5ef-8f18f531b834",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "290d5566-3258-4fa6-8371-25126b01bdb9",
+                    "path": "<DualSenseGamepadHID>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "26801675-abba-4866-96a2-f35039893605",
+                    "path": "<DualSenseGamepadHID>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b2f56f49-0fed-4df7-9243-faed7c50ff9a",
+                    "path": "<DualSenseGamepadHID>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
