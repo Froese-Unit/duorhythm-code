@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Monster
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - MonsterBait
+  - Monster
+  - Player1
+  - Player2
+  - ReloadBarP1
+  - ReloadBarP2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2339045585
+    locked: 0
+  - name: Monster
+    uniqueID: 1255427543
+    locked: 0
+  - name: Effects
+    uniqueID: 4228925181
+    locked: 0
+  - name: P1Crosshair
+    uniqueID: 3091900785
+    locked: 0
+  - name: P2Crosshair
+    uniqueID: 108607073
+    locked: 0
+  - name: CrosshairBot
+    uniqueID: 2529823373
+    locked: 0
+  - name: ReloadBar
+    uniqueID: 4247945021
+    locked: 0
+  - name: Text
+    uniqueID: 3148849843
+    locked: 0
